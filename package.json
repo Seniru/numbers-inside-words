@@ -1,0 +1,19 @@
+{
+  "name": "numbers-inside-words",
+  "version": "1.0.0",
+  "description": "Module to do number words like M1n3cr4ft",
+  "main": "core.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "String",
+    "Replace"
+  ],
+  "author": "thechickienagget",
+  "license": "ISC",
+  "dependencies": {
+    "common-js": "^0.3.8",
+    "v8-compile-cache": "^2.1.0"
+  }
+}
