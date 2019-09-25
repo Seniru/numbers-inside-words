@@ -1,5 +1,5 @@
 # Numbers inside Words
-## Module to do number words like M1n3cr4ft
+### Module to do number words like M1n3cr4ft
 ----
 ## Usage
 ```js 

@@ -1,11 +1,19 @@
 {
   "name": "numbers-inside-words",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Module to do number words like M1n3cr4ft",
-  "main": "./src/core.js",
+  "main": "src/core.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheChickenNagget/numbers-inside-words.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheChickenNagget/numbers-inside-words/issues"
+  },
+  "homepage": "https://github.com/TheChickenNagget/numbers-inside-words/blob/master/README.md",
   "keywords": [
     "String",
     "Replace"
@@ -15,5 +23,8 @@
   "dependencies": {
     "common-js": "^0.3.8",
     "v8-compile-cache": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0"
   }
 }
