@@ -2,7 +2,6 @@
 require("v8-compile-cache");
 module.exports = {
 create:function(value){
-if(typeof value === "number" || "boolean" || "object"){throw new Error("Text must be string");};
 
 var i;
 var rslSize1 = value.replace(/[^a]/g, "").length;
