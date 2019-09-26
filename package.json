@@ -1,6 +1,6 @@
 {
   "name": "numbers-inside-words",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Module to do number words like M1n3cr4ft",
   "main": "src/core.js",
   "scripts": {
@@ -21,7 +21,6 @@
   "author": "thechickienagget",
   "license": "ISC",
   "dependencies": {
-    "common-js": "^0.3.8",
     "v8-compile-cache": "^2.1.0"
   },
   "devDependencies": {

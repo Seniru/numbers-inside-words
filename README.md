@@ -7,3 +7,4 @@ var package = require("numbers-inside-words");
 package.create("minecraft");
 // outputs m1n3cr4ft
 ```
+### you can test it with runkit right here on this page

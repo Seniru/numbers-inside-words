@@ -2,7 +2,6 @@
 require("v8-compile-cache");
 module.exports = {
 create:function(value){
-
 var i;
 var rslSize1 = value.replace(/[^a]/g, "").length;
 var rslSize2 = value.replace(/[^A]/g, "").length;
