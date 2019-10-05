@@ -6,11 +6,9 @@ const dict = {
  "e": "3", "E": "3", "i": "1", "I": "1"
 };
 
-module.exports = {
-    create: function(val) {
+module.exports =  function(val) {
         for (let k of Object.keys(dict)){
             val = val.replace(new RegExp(k, "g"), dict[k]);
         }
      return val;
     }
-};
